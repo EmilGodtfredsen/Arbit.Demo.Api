@@ -74,7 +74,7 @@ namespace Arbit.Demo.Api.Controllers
 
         // Get by id /api/user
 
-        [HttpGet("{id}")]
+     /*   [HttpGet("{id}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
@@ -94,7 +94,7 @@ namespace Arbit.Demo.Api.Controllers
             {
                 return Problem(e.Message);
             }
-        }
+        }*/
 
         //Update user /api/user
 

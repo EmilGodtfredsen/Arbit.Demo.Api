@@ -25,7 +25,8 @@ namespace Arbit.Demo.Api.Repositories
         }
         public async Task<List<User>> GetAll()
         {
-            return await _context.Users
+            return await 
+                _context.Users
                 .Where(u => u.DeletedAt == null)
                 .ToListAsync();
         }
